@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/stilo.css">
+    <title>Quero Leads</title>
+</head>
+<body>
+    <h1>Quero Leads - Cadastro</h1>
+    <form class="" action="index.html" method="post">
+        <fieldset>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" placeholder="Digite seu nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Digite seu email">
+            
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" placeholder="11 80591869">
+            
+            <label for="estado">Estado:</label>
+            <select>            
+                <option disabled>Selecione</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+            
+            <label for="cidade">Cidadde:</label>
+            <input type="text" name="cidade" placeholder="Digite sua cidade">
+            
+            <label for="cep">CEP:</label>
+            <input type="text" name="CEP" placeholder="Digite seu CEP">
+            
+            <label for="endereço">Endereço:</label>
+            <input type="text" name="Endereço" placeholder="Digite seu endereço">
+            
+            <label for="bairro">Bairro:</label>
+            <input type="text" name="bairro" placeholder="Digite seu bairro">
+            
+            <label for="numero de residência">Numero de Residência:</label>
+            <input type="number" name="residência" placeholder="Digite sua residência">
+            
+            <label for="complemento">Complemento:</label>
+            <input type="text" name="complemento" placeholder="">
+            
+            <br>
+            <label for="gender">Gênero</label>
+            <br>
+            <input type="radio" name="genero" value="Masculino"> Masculino            
+            <br>
+            <input type="radio" name="genero" value="Feminino"> Feminino            
+            <br>
+            <input type="radio" name="genero" value="Outro"> Outro
+            
+            <br>
+            <Label for="gostos">Selecione os items que você mais gosta:</Label>
+            <br>
+            <input type="checkbox" name="musica" value="musica">Música<br>
+            <input type="checkbox" name="teatro" value="teatro">Teatro<br>
+            <input type="checkbox" name="esporte" value="esporte">Esporte<br>
+
+            <label for="Crie uma senha">Crie uma senha</label>
+            <input type="password" name="psw"> <br>
+            
+            <label for="comentario">Comente o que você achou disso tudo</label><br>
+            <textarea name="comentario" rows="50" cols="8"></textarea> <br>
+
+            <input type="submit" name="enviar" value="enviar">
+
+            
+        </fieldset>
+    </form>
+</body>
+</html>
